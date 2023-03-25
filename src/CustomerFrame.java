@@ -62,6 +62,7 @@ public class CustomerFrame extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
+		
 //PRODUCT PANE----------------------------------------------------
 		JTabbedPane tabbedPane = new JTabbedPane(JTabbedPane.TOP);
 		tabbedPane.setBounds(10, 10, 966, 454);
@@ -174,6 +175,7 @@ public class CustomerFrame extends JFrame {
 		products.add(addBttn);
 
 		showProducts();
+		
 //CUSTOMER BASKET PANE----------------------------------		
 		JPanel basket = new JPanel();
 		tabbedPane.addTab("Basket", null, basket, null);
